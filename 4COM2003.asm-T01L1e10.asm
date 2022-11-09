@@ -6,20 +6,7 @@ asect  0x00
 # No dc or ds pseudo-instructions
 # Do not include a halt instruction: that has been done already (below)
 # ---------------------------------------------------------------------
-   ldi r0, a
-   ld  r0, r1
-   shla r1
-   shla r1
-   shla r1
-   ldi r0, a
-   ld  r0, r2
-   add r2, r2
-   add r1, r2
-   ldi r0, res
-   st  r0, r2
-   
-   
-   
+
 
 
 
